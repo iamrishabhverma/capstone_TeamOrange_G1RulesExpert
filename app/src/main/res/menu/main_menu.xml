@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+
+        <item
+            android:id="@+id/nav_allQuiz"
+            android:title="All Quizzes"
+            android:icon="@drawable/allquiz"/>
+
+        <item
+            android:id="@+id/all_scores"
+            android:title="All Scores"
+            android:icon="@drawable/scores"/>
+
+        <item
+            android:id="@+id/nav_add_missing_place"
+            android:title="Challenge Box"
+            android:icon="@drawable/challenge"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/user"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="LOGOUT"
+            android:icon="@drawable/logout"/>
+    </group>
+
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_jjj"
+                    android:title="Settings"
+                    android:icon="@drawable/gear"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

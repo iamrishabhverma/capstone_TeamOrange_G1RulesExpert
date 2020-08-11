@@ -24,4 +24,6 @@
     <string name="EmailError">Enter Valid Email</string>
     <string name="firstNameError">Enter Valid Name</string>
     <string name="PasswordError">Enter Valid Password</string>
+    <string name="spashimage">spashimage</string>
+    <string name="slogan_name">slogan_name</string>
 </resources>

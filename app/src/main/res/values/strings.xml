@@ -20,4 +20,8 @@
     <string name="enter_password">Enter Password</string>
     <string name="next">Next</string>
     <string name="icon">icon</string>
+    <string name="PhoneNumberError">Enter Valid PhoneNo.</string>
+    <string name="EmailError">Enter Valid Email</string>
+    <string name="firstNameError">Enter Valid Name</string>
+    <string name="PasswordError">Enter Valid Password</string>
 </resources>

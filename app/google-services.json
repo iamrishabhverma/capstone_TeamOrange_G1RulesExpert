@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "172629160270",
+    "firebase_url": "https://team-orange-capstone-android.firebaseio.com",
+    "project_id": "team-orange-capstone-android",
+    "storage_bucket": "team-orange-capstone-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172629160270:android:a9c758912a12da2393ae1f",
+        "android_client_info": {
+          "package_name": "com.example.teamorange_capstone_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172629160270-7m8rrfcf6gc669bj98q733v5ce88dneo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOvlzGxx7KG4Fsux5sjz3K_oU9tvioau4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172629160270-7m8rrfcf6gc669bj98q733v5ce88dneo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

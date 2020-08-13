@@ -8,6 +8,14 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
+  import com.example.teamorange_capstone_android.LoginActivity;
+   import com.example.teamorange_capstone_android.SignUpActivity;
+   import com.example.teamorange_capstone_android.R;
+
+
+
+
+
 public class FrontScreen extends AppCompatActivity {
     Button login_button;
     Button register_button;
@@ -26,7 +34,7 @@ public class FrontScreen extends AppCompatActivity {
             public void onClick(View view) {
                 LoginView();
             }
-        } );
+        });
 
         register_button.setOnClickListener(new View.OnClickListener() {
             @Override

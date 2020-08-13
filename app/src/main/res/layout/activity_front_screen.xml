@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:background="#FF0033"
                 android:fontFamily="@font/aclonica"
-                android:text="Log In"
+                android:text="@string/log_in"
                 android:textColor="#FFFFFF"
                 android:textSize="22sp" />
 
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:background="#FF9900"
                 android:fontFamily="@font/aclonica"
-                android:text="Register"
+                android:text="@string/register"
                 android:textColor="#FFFFFF"
                 android:textSize="22sp" />
 

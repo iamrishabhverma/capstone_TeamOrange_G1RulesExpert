@@ -26,4 +26,11 @@
     <string name="PasswordError">Enter Valid Password</string>
     <string name="spashimage">spashimage</string>
     <string name="slogan_name">slogan_name</string>
+
+    <string name="enter_one_time_password_set_on_your_phone">Enter one time password set on your phone</string>
+    <string name="successfully_register">Successfully Register</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="creat_an_account">Creat An account</string>
+
 </resources>

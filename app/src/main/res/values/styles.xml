@@ -1,17 +1,17 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#FF0033</item>
+        <item name="colorPrimaryDark">#FF9900</item>
+        <item name="colorAccent">#000000</item>
     </style>
 
     <!-- Menu Style -->
     <style name="navigationTheme">
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">#FF0033</item>
         <!-- Background Color -->
-        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlHighlight">#000000</item>
     </style>
 
 

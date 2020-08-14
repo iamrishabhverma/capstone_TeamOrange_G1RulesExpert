@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/actor"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="@string/slogan_name"
+        android:text="The expert in anything was once a beginner and G1 is Beginning"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

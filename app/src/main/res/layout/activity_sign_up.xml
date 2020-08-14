@@ -50,7 +50,6 @@
             android:layout_marginTop="20dp"
             android:orientation="vertical">
 
-
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_fullname"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"

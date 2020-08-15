@@ -13,7 +13,7 @@ public class AllQuizActivity extends AppCompatActivity {
 
     RelativeLayout firstQuizBox;
     ImageView backBtn;
-//commit
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

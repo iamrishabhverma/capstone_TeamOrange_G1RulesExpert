@@ -7,8 +7,9 @@
     android:background="@drawable/road3"
     android:orientation="vertical"
     android:padding="30dp"
-    tools:context=".FrontScreen"
-    >
+    tools:context=".FrontScreen">
+
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,6 +27,7 @@
 
     </RelativeLayout>
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -37,8 +39,8 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:fontFamily="@font/aclonica"
-            android:text="Rules Expert"
-            android:textColor="#FFFFFF"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
             android:textSize="24sp" />
 
     </RelativeLayout>
@@ -47,7 +49,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp">
+        android:layout_marginTop="80dp">
 
         <LinearLayout
             android:id="@+id/login_btn_front"
@@ -63,7 +65,7 @@
                 android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FF0033"
+                android:background="@color/colorPrimary"
                 android:fontFamily="@font/aclonica"
                 android:text="@string/log_in"
                 android:textColor="#FFFFFF"
@@ -85,14 +87,36 @@
                 android:id="@+id/register_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FF9900"
+                android:background="@color/colorPrimaryDark"
                 android:fontFamily="@font/aclonica"
-                android:text="@string/register"
+                android:text="@string/register_in"
                 android:textColor="#FFFFFF"
                 android:textSize="22sp" />
 
         </LinearLayout>
 
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/change_language"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:paddingBottom="20px"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:gravity="center"
+            android:background="@drawable/language_white"
+            android:popupBackground="@color/colorPrimary"
+            android:textColor="#00FFFFFF"
+            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 
@@ -110,7 +134,20 @@
             android:orientation="horizontal">
 
 
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/slogan_name"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:lineHeight="25dp"
+                android:background="#8FFFFFFF"
+                android:padding="10dp"/>-->
+
         </LinearLayout>
+
 
     </RelativeLayout>
 

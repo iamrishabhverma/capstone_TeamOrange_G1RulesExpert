@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_grey"
     android:padding="30dp"
-    tools:context=".SignUpActivity">
+    tools:context=".Common.LoginSignup.SignUpActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,9 +36,9 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:fontFamily="@font/aclonica"
-                android:text="@string/creat_an_account"
+                android:text="@string/create_an_account"
                 android:textAllCaps="true"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
         </RelativeLayout>
@@ -50,6 +50,7 @@
             android:layout_marginTop="20dp"
             android:orientation="vertical">
 
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_fullname"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -57,14 +58,14 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
                 android:hint="@string/enter_full_name"
-                android:textColorHint="#000000"
-                app:boxStrokeColor="#000000"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="2dp"
                 app:endIconMode="clear_text"
-                app:endIconTint="#000000"
-                app:hintTextColor="#000000"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/ic_baseline_create_24"
-                app:startIconTint="#000000">
+                app:startIconTint="@color/black">
 
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -72,7 +73,7 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/antic"
                     android:inputType="text"
-                    android:textColor="#000000"
+                    android:textColor="@color/black"
                     android:textCursorDrawable="@null" />
 
 
@@ -85,15 +86,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
-                android:hint="@string/enter_emailid"
-                android:textColorHint="#000000"
-                app:boxStrokeColor="#000000"
+                android:hint="@string/enter_emailId"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="2dp"
                 app:endIconMode="clear_text"
-                app:endIconTint="#000000"
-                app:hintTextColor="#000000"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
                 app:startIconDrawable="@android:drawable/ic_dialog_email"
-                app:startIconTint="#000000">
+                app:startIconTint="@color/black">
 
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -101,7 +102,7 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/antic"
                     android:inputType="text"
-                    android:textColor="#000000"
+                    android:textColor="@color/black"
                     android:textCursorDrawable="@null" />
 
 
@@ -121,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/choose_gender"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:fontFamily="@font/aclonica"
                 android:textSize="18sp" />
 
@@ -163,15 +164,15 @@
                 android:layout_height="2dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:background="#000000" />
+                android:background="@color/black" />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/select_young_age"
+                android:text="@string/select_your_age"
                 android:fontFamily="@font/aclonica"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
 
 
@@ -191,8 +192,7 @@
                 app:ccp_defaultNameCode="CA"
                 app:ccp_defaultPhoneCode="1"
                 app:ccp_countryPreference="CA"
-                app:ccp_clickable="false"
-                tools:ignore="MissingClass" />
+                app:ccp_clickable="false"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_phone_number"
@@ -201,14 +201,14 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
                 android:hint="@string/enter_phone_number"
-                android:textColorHint="#000000"
-                app:boxStrokeColor="#000000"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="2dp"
                 app:endIconMode="clear_text"
-                app:endIconTint="#000000"
-                app:hintTextColor="#000000"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
-                app:startIconTint="#000000">
+                app:startIconTint="@color/black">
 
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -216,7 +216,7 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/antic"
                     android:inputType="phone"
-                    android:textColor="#000000"
+                    android:textColor="@color/black"
                     android:textCursorDrawable="@null" />
 
 
@@ -228,26 +228,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
-                android:hint="@string/enter_password"
-                android:textColorHint="#000000"
-                app:boxStrokeColor="#000000"
+                android:hint="@string/enter_Password"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="2dp"
-                app:endIconTint="#000000"
-                app:hintTextColor="#000000"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
                 app:passwordToggleEnabled="true"
-                app:passwordToggleTint="#000000"
+                app:passwordToggleTint="@color/black"
                 app:startIconDrawable="@android:drawable/ic_lock_lock"
-                app:startIconTint="#000000">
+                app:startIconTint="@color/black">
+
 
                 <com.google.android.material.textfield.TextInputEditText
-
-
-
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/antic"
                     android:inputType="textPassword"
-                    android:textColor="#000000"
+                    android:textColor="@color/black"
                     android:textCursorDrawable="@null" />
 
 
@@ -260,11 +258,11 @@
             android:id="@+id/signup_register_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="#000000"
+            android:layout_marginTop="10dp"
+            android:background="@color/black"
             android:fontFamily="@font/aclonica"
-            android:text="@string/next"
-            android:textColor="#FFFFFF" />
+            android:text="@string/next_btn"
+            android:textColor="@color/white" />
 
 
     </LinearLayout>

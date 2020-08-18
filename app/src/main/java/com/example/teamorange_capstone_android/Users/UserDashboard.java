@@ -1,4 +1,4 @@
-package com.example.teamorange_capstone_android;
+package com.example.teamorange_capstone_android.Users;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,8 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.teamorange_capstone_android.R;
+import com.example.teamorange_capstone_android.SessionManager;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.HashMap;

@@ -21,9 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QuizQuestions" />
-        <activity android:name=".AllQuizActivity" />
-        <activity android:name=".UserDashboard" />
+        <activity android:name=".Users.QuizQuestions" />
+        <activity android:name=".Users.AllQuizActivity" />
+        <activity android:name=".Users.UserDashboard" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".FrontScreen" />

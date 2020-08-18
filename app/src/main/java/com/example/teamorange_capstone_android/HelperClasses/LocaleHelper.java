@@ -1,4 +1,4 @@
-package com.example.teamorange_capstone_android;
+package com.example.teamorange_capstone_android.HelperClasses;
 
 import android.annotation.TargetApi;
 import android.content.Context;

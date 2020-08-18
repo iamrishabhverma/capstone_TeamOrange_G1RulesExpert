@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="#eceaea"
+    android:background="@color/lightGrey"
     android:paddingLeft="15dp"
     android:paddingStart="15dp">
 
@@ -10,7 +10,7 @@
         android:id="@+id/menu_slogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The Expert in anything was once a Beginner and G1 is the beginning"
+        android:text="@string/slogan_name"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp" />
 
@@ -18,18 +18,18 @@
         android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Driving Quiz Learning"
+        android:text="@string/logo_name"
         android:fontFamily="@font/aclonica"
         android:textSize="24sp"
         android:layout_above="@+id/menu_slogan"
-        android:textColor="#000000"/>
+        android:textColor="@color/black"/>
 
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@mipmap/ic_launcher_g1expert"
         android:layout_above="@+id/app_name"
-        android:contentDescription="Driving Quiz Learning" />
+        android:contentDescription="@string/logo_name" />
 
     <ImageView
         android:layout_width="160dp"
@@ -37,7 +37,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:src="@drawable/half_classic_cars"
-        android:contentDescription="Menu Header Image"
+        android:contentDescription="@string/menu_header_image"
         android:layout_alignParentEnd="true" />
 
 

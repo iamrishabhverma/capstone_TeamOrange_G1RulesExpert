@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.teamorange_capstone_android.R;
-import com.example.teamorange_capstone_android.ScoresHelper;
-import com.example.teamorange_capstone_android.SessionManager;
+import com.example.teamorange_capstone_android.DatabaseHelper.ScoresHelper;
+import com.example.teamorange_capstone_android.DatabaseHelper.SessionManager;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

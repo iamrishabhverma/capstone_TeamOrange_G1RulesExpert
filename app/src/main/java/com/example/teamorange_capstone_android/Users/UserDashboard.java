@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.teamorange_capstone_android.R;
-import com.example.teamorange_capstone_android.SessionManager;
+import com.example.teamorange_capstone_android.DatabaseHelper.SessionManager;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.HashMap;

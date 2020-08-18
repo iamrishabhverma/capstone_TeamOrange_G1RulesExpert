@@ -1,4 +1,4 @@
-package com.example.teamorange_capstone_android;
+package com.example.teamorange_capstone_android.DatabaseHelper;
 
 public class UserHelperClass {
 

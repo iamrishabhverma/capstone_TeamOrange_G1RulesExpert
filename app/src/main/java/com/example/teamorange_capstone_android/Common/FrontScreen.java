@@ -1,4 +1,4 @@
-package com.example.teamorange_capstone_android;
+package com.example.teamorange_capstone_android.Common;
 
 import androidx.appcompat.app.AppCompatActivity;
 

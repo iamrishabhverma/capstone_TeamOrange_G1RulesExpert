@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.teamorange_capstone_android.Common.FrontScreen;
 import com.example.teamorange_capstone_android.DatabaseHelper.UserHelperClass;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

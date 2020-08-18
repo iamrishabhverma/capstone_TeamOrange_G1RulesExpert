@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".VerifyOTP"></activity>
-        <activity android:name=".SplashScreen">
+        <activity android:name=".Common.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +26,7 @@
         <activity android:name=".Users.UserDashboard" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".FrontScreen" />
+        <activity android:name=".Common.FrontScreen" />
     </application>
 
 </manifest>

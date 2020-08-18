@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">G1 Learning App</string>
     <string name="logo_name">Driving Quiz Learning</string>
     <string name="slogan_name">The expert in anything was once a beginner and G1 is Beginning.</string>
     <string name="powered_by">Powered By G1 Learning Expert</string>
@@ -110,6 +109,7 @@
     <string name="current_score">Current Score:</string>
     <string name="random_4_questions">Random 4 Questions</string>
     <string name="about_us">About us</string>
+    <string name="app_name">G1 Learning App</string>
 
 
 </resources>

@@ -25,6 +25,7 @@
         <activity android:name=".Users.AllQuizActivity" />
         <activity android:name=".Users.UserDashboard" />
         <activity android:name=".LoginActivity" />
+
         <activity android:name=".SignUpActivity" />
         <activity android:name=".Common.FrontScreen" />
     </application>

@@ -104,19 +104,6 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="20dp"
         android:gravity="center">
-        <TextView
-            android:id="@+id/change_language"
-            android:layout_width="40dp"
-            android:layout_height="30dp"
-            android:paddingBottom="20px"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:padding="6dp"
-            android:gravity="center"
-            android:background="@drawable/language_white"
-            android:popupBackground="@color/colorPrimary"
-            android:textColor="#00FFFFFF"
-            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 
@@ -150,5 +137,28 @@
 
 
     </RelativeLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Change Language:"
+    android:textColor="#ffffff"
+    android:paddingBottom="15px"
+    android:textSize="20dp"
+    android:textAllCaps="true"
+    android:layout_gravity="center"
+    android:fontFamily="@font/aclonica"></TextView>
+
+
+    <TextView
+        android:id="@+id/change_language"
+        android:layout_width="49dp"
+        android:layout_height="39dp"
+android:layout_gravity="center"
+        android:background="@drawable/language_white"
+
+        android:padding="6dp"
+        android:paddingBottom="15px"
+        android:popupBackground="@color/colorPrimary"
+        android:textColor="#00FFFFFF" />
 
 </LinearLayout>

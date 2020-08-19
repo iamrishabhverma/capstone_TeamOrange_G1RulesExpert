@@ -4,7 +4,7 @@
     package="com.example.teamorange_capstone_android">
 
     <uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VerifyOTP"></activity>
+        <activity android:name=".Users.FaqActivity"></activity>
+        <activity android:name=".VerifyOTP" />
         <activity android:name=".Common.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +26,6 @@
         <activity android:name=".Users.AllQuizActivity" />
         <activity android:name=".Users.UserDashboard" />
         <activity android:name=".LoginActivity" />
-
         <activity android:name=".SignUpActivity" />
         <activity android:name=".Common.FrontScreen" />
     </application>

@@ -12,7 +12,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
@@ -20,6 +23,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.teamorange_capstone_android.Common.FrontScreen;
 import com.example.teamorange_capstone_android.R;
 import com.example.teamorange_capstone_android.DatabaseHelper.SessionManager;
 import com.example.teamorange_capstone_android.HelperClasses.LocaleHelper;
@@ -117,11 +121,38 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
                 break;
 
             case R.id.nav_allQuiz:
-                startActivity(new Intent(getApplicationContext(), AllQuizActivity.class));
+                if(!isConnected(UserDashboard.this)){
+                    showCustomDialog();
+                }
+                else{
+                    startActivity(new Intent(getApplicationContext(), AllQuizActivity.class));
+                }
+                break;
+
+            case R.id.nav_all_scores:
+                startActivity(new Intent(getApplicationContext(), AllScores.class));
+                break;
+
+            case R.id.nav_add_faq:
+                startActivity(new Intent(getApplicationContext(), FaqActivity.class));
+                break;
+
+            case R.id.nav_profile:
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                break;
+
+            case R.id.nav_logout:
+                //Start Session
+                SessionManager sessionManager = new SessionManager(UserDashboard.this);
+                sessionManager.logoutUserFromSession();
+                Intent intent = new Intent(UserDashboard.this, FrontScreen.class);
+                startActivity(intent);
+                finish();
                 break;
         }
         return true;
     }
+
 
     public void changeLanguage(String language) {
         Locale locale = new Locale(language);
@@ -204,5 +235,39 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
                 builder.create().show();
             }
         });
+    }
+ private boolean isConnected(UserDashboard userDashboard) {
+    ConnectivityManager connectivityManager = (ConnectivityManager)userDashboard.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+    NetworkInfo wifiConn = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+    NetworkInfo mobileConn = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+
+    if((wifiConn != null && wifiConn.isConnected()) || (mobileConn != null && mobileConn.isConnected())){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+    private void showCustomDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(UserDashboard.this);
+        builder.setMessage("Please check you Internet Connection to continue further")
+                .setCancelable(false)
+                .setPositiveButton("Connect", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        startActivity(new Intent(Settings.ACTION_WIFI_SETTINGS));
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        startActivity(new Intent(getApplicationContext(), UserDashboard.class));
+                        finish();
+                    }
+                });
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
     }
 }

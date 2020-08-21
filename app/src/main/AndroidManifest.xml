@@ -28,6 +28,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".Common.FrontScreen" />
+        <activity android:name=".Users.ProfileActivity"/>
+          
+
     </application>
 
 </manifest>

@@ -65,9 +65,6 @@ public class ProfileActivity extends AppCompatActivity {
         phone_number = findViewById(R.id.profile_phone_number);
         updateBtn = findViewById(R.id.profile_update_button);
 
-
-
-
         backBtn = findViewById(R.id.backButtonPress);
 
         backBtn.setOnClickListener(new View.OnClickListener() {

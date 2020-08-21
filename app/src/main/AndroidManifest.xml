@@ -29,7 +29,11 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".Common.FrontScreen" />
         <activity android:name=".Users.ProfileActivity"/>
-          
+        <activity android:name=".Users.ChallengeActivity"/>
+        <activity android:name=".Users.AllScores"/>
+        <activity android:name=".Users.ScoresActivity"/>
+
+
 
     </application>
 
